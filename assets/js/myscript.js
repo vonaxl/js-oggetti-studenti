@@ -51,5 +51,5 @@ while (continuare=="si") {
 //   console.log(classe);
  // in while print student object name and surename properties 
  for (let index = 0; index < classe.length; index++) {
-     console.log("nome ");
+     console.log(classe[index]);
  }
