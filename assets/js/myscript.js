@@ -4,25 +4,24 @@ var studente = {
     "cognome" : "",
     "eta" : 0
 };
+var studente1 = {
+    "nome" : "Simone",
+    "cognome" : "Icardi",
+    "eta" : 120
+};
+var studente2 = {
+    "nome" : "Fabbrizia",
+    "cognome" : "Lorenzion",
+    "eta" : 30
+};
+var studente3 = {
+    "nome" : "Rosales",
+    "cognome" : "Garcia",
+    "eta" : 20
+}
 
 // array of the class
-var classe = [
-    studente1 = {
-        "nome" : "Simone",
-        "cognome" : "Icardi",
-        "eta" : 120
-    },
-    studente2 = {
-        "nome" : "Fabbrizia",
-        "cognome" : "Lorenzion",
-        "eta" : 30
-    },
-    studente3 = {
-        "nome" : "Rosales",
-        "cognome" : "Garcia",
-        "eta" : 20
-    }
-];
+var classe = [studente1, studente2, studente3];
 
 
 
@@ -49,12 +48,12 @@ for (var key in studente1) {
    console.log("proprieta: "+ key +" ha il valore  : "+ studente3[key]);
 }
 
-//   console.log(classe);
  // in cicle print student object name and surename properties 
  console.log("================ESERCIZIO 2================");
  for (let index = 0; index < classe.length; index++) {
      console.log(classe[index].nome, classe[index].cognome);
  }
+
  console.log("================ESERCIZIO 3================");
  console.log(classe);
  
