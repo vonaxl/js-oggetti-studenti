@@ -44,12 +44,17 @@ while (continuare=="si") {
 }
 
 // print object properties
-// for (var key in studente3) {
-//    console.log("proprieta: "+ key +" ha il valore  : "+ studente3[key]);
-// }
+console.log("================ESERCIZIO 1================");
+for (var key in studente1) {
+   console.log("proprieta: "+ key +" ha il valore  : "+ studente3[key]);
+}
 
 //   console.log(classe);
- // in while print student object name and surename properties 
+ // in cicle print student object name and surename properties 
+ console.log("================ESERCIZIO 2================");
  for (let index = 0; index < classe.length; index++) {
-     console.log(classe[index]);
+     console.log(classe[index].nome, classe[index].cognome);
  }
+ console.log("================ESERCIZIO 3================");
+ console.log(classe);
+ 
